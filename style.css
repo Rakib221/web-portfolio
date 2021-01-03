@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+
+.name-highlight {
+    color: orange;
+}
+
+.half-width {
+    width:40%;
+    float: left;
+    margin-left:5%;
+    padding-left:2%;
+}
+
+.link-button {
+    text-decoration:none;
+    background-color:orange;
+    padding: 10px 20px;
+    border-radius:5px;
+    font-weight: bolder;
+    color: white;
+    background-image:linear-gradient(45deg,lightsalmon,orange);
+}
+
+.half-width img {
+    width:100%;
+}
+
+.top-banner {
+    background-image:url("images/top-banner.png");
+    background-repeat:no-repeat;
+}
+
+section {
+    height: 600px;
+    padding-bottom: 100px;
+}
+
+.dream-area {
+    background-image:url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.orange-highlight {
+    color:orange;
+}
+.box-shadow-class {
+    box-shadow: 10px 20px 40px gray;
+    height: 70%;
+    border-radius:7px;
+    background-color:white;
+}
+
+.experience-area {
+    background-image:url("images/exp-bg.png");
+    background-repeat:no-repeat;
+    background-position:left;
+}
+
+#left-side-border-color-in-box-one {
+   border-left: 8px solid;
+   border-image: linear-gradient(180deg, lightsalmon, tomato);
+   border-image-slice: 1;
+}
+
+#left-side-border-color-in-box-two {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+ }
+
+ footer {
+     text-align:center;
+ }
